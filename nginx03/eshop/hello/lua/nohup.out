@@ -1,0 +1,8 @@
+[2020-02-22 05:26:10,366] FATAL  (kafka.Kafka$)
+java.io.FileNotFoundException: config/server.properties (没有那个文件或目录)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+	at java.io.FileInputStream.<init>(FileInputStream.java:101)
+	at kafka.utils.Utils$.loadProps(Utils.scala:144)
+	at kafka.Kafka$.main(Kafka.scala:34)
+	at kafka.Kafka.main(Kafka.scala)
